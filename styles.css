@@ -1,5 +1,6 @@
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 #hometitle{
@@ -8,11 +9,18 @@
     text-align: center;
     background-color: purple;
     font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
     
 }
 
 .homelist{
-    font-size: 26px;
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    padding: 20px 40px 20px 40px;
+    margin-left: auto;
+    justify-content: space-between;
 }
 
 .pagetitle{
