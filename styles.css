@@ -25,13 +25,14 @@ body{
 .home_list{
     display: flex;
     justify-content: center;
-    justify-content: space-between;
 }
 
 .home_list ul{
+    display: flex;
     list-style: none;
     margin-left: auto;
     align-items: center;
+    justify-content: space-between;
     padding: 0px 25% 0px 25%;
     flex: 1;
 }
